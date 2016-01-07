@@ -21,11 +21,11 @@ tests_require = install_requires + ['dulwich', 'mercurial']
 
 
 setup(
-    name='vcs',
+    name='vcs-msamia',
     version=vcs.get_version(),
-    url='https://github.com/codeinn/vcs',
-    author='Marcin Kuzminski, Lukasz Balcerzak',
-    author_email='marcin@python-works.com',
+    url='https://github.com/stardust85/vcs',
+    author='Marcin Kuzminski, Lukasz Balcerzak, Michel Samia',
+    author_email='msamia@netsuite.com',
     description=vcs.__doc__,
     long_description=long_description,
     zip_safe=False,
