@@ -26,7 +26,7 @@ setup(
     url='https://github.com/stardust85/vcs',
     author='Marcin Kuzminski, Lukasz Balcerzak, Michel Samia',
     author_email='msamia@netsuite.com',
-    description=vcs.__doc__,
+    description='temporary fork of codein/vcs until my PRs are accepted',
     long_description=long_description,
     zip_safe=False,
     packages=find_packages(),
