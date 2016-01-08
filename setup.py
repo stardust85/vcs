@@ -15,10 +15,11 @@ except IOError, err:
     sys.exit(1)
 
 install_requires = ['Pygments', 'mock']
-if sys.version_info < (2, 7):
-    install_requires.append('unittest2')
+
 tests_require = install_requires + ['dulwich', 'mercurial']
 
+if sys.version_info < (2, 7):
+    tests_require.append('unittest2')
 
 setup(
     name='vcsmsamia',
