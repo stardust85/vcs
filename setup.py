@@ -21,7 +21,7 @@ tests_require = install_requires + ['dulwich', 'mercurial']
 
 
 setup(
-    name='vcs-msamia',
+    name='vcsmsamia',
     version=vcs.get_version(),
     url='https://github.com/stardust85/vcs',
     author='Marcin Kuzminski, Lukasz Balcerzak, Michel Samia',
